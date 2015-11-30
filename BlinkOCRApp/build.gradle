@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId 'com.microblink.ocr'
+        minSdkVersion 15
+        targetSdkVersion 21
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig = debug.signingConfig
+        }
+    }
+}
+
+dependencies {
+    compile project(':LibRecognizer')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}

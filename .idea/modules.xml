@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlinkOCRApp/BlinkOCRApp.iml" filepath="$PROJECT_DIR$/BlinkOCRApp/BlinkOCRApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkOCRDemo.iml" filepath="$PROJECT_DIR$/BlinkOCRDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibRecognizer/LibRecognizer.iml" filepath="$PROJECT_DIR$/LibRecognizer/LibRecognizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibRecognizer-javadoc/LibRecognizer-javadoc.iml" filepath="$PROJECT_DIR$/LibRecognizer-javadoc/LibRecognizer-javadoc.iml" />
+    </modules>
+  </component>
+</project>
+

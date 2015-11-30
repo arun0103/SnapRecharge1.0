@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.34"
+            android:background="@color/overlay_background_blink_ocr"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.13"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@color/overlay_background_blink_ocr"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@color/overlay_background_blink_ocr"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.53"
+            android:background="@color/overlay_background_blink_ocr"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.32">
+
+            <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnExitClicked"
+                android:src="@drawable/exit_blink_ocr"/>
+
+            <ImageButton
+                android:id="@+id/btnHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnHelpClicked"
+                android:src="@drawable/help_blink_ocr"/>
+
+            <ImageButton
+                android:id="@+id/btnFlash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnFlashClicked"
+                android:src="@drawable/flashlight_blink_ocr"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_white_blink_ocr"
+                android:text="Position scan element in this frame"/>
+
+            <com.microblink.ocr.SlidingTabLayout
+                android:id="@+id/indicator"
+                android:layout_below="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_below="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:background="@android:color/white"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.08"/>
+
+            <include
+                layout="@layout/viewfinder_blink_ocr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.84"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.08"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.51"
+            android:paddingBottom="@dimen/result_vertical_margin_blink_ocr"
+            android:paddingLeft="@dimen/result_horizontal_margin_blink_ocr"
+            android:paddingRight="@dimen/result_horizontal_margin_blink_ocr"
+            android:paddingTop="@dimen/result_vertical_margin_blink_ocr">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/layResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/result_background_blink_ocr"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:paddingLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:paddingRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:paddingTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:visibility="invisible"
+                tools:visibility="visible">
+
+                <com.microblink.ocr.FontFitTextView
+                    android:id="@+id/txtResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="true"
+                    android:singleLine="true"
+                    android:text="123,54"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_white_blink_ocr"
+                    android:background="@android:color/transparent"
+                    android:textSize="@dimen/text_size_blink_ocr"
+                    android:backgroundTint="@color/text_white_blink_ocr"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btnAccept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ok_big_blink_ocr"
+                        android:onClick="onBtnAcceptClicked"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/layout/overlay_blink_ocr.xml -->

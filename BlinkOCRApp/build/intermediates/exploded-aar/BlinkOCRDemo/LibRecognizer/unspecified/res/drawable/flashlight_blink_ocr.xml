@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@drawable/icon_flashlight_blink_ocr" />
+    <item android:state_pressed="true" android:drawable="@drawable/icon_flashlight_selected_blink_ocr" />
+</selector><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/drawable/flashlight_blink_ocr.xml -->

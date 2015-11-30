@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="default_frame">#DDF60C0C</color>
+    <color name="formDetect_frame">#DDEEE718</color>
+    <color name="greenlight">#FF5EC102</color>
+    <color name="helpButtonBackgroundDisabled">#22000000</color>
+    <color name="helpButtonBackgroundNormal">#AA000000</color>
+    <color name="helpButtonBackgroundPressed">#AA888888</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/values/colors_blink_ocr.xml -->
+    <eat-comment/>
+    <color name="help_background_blink_ocr">#ff434343</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="max_quality_ocr_color">#FF00FF00</color>
+    <color name="med_quality_ocr_color">#FFFFFF00</color>
+    <color name="min_quality_ocr_color">#FFFF0000</color>
+    <color name="ocr_line_background">#77000000</color>
+    <color name="ocr_line_help_background">#FFBF0000</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/values/colors_blink_ocr.xml -->
+    <eat-comment/>
+    <color name="overlay_background_blink_ocr">#77000000</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="photopayButtonBackgroundDisabled">#22FFFFFF</color>
+    <color name="photopayButtonBackgroundNormal">#99FFFFFF</color>
+    <color name="photopayButtonBackgroundPressed">#FFFFFFFF</color>
+    <color name="photopayButtonBorder">#FF000000</color>
+    <color name="photopayButtonForeground">#FF000000</color>
+    <color name="recognized_frame">#DD2DEE06</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/values/colors_blink_ocr.xml -->
+    <eat-comment/>
+    <color name="result_background_blink_ocr">#7750ff00</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="statusBackground">#BB000000</color>
+    <color name="statusForeground">#DDEEEEEE</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/values/colors_blink_ocr.xml -->
+    <eat-comment/>
+    <color name="text_gray_blink_ocr">#b1b1b1b1</color>
+    <color name="text_white_blink_ocr">#FFFFFFFF</color>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="textback">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="RecognizerView"><attr format="enum" name="initialOrientation"><enum name="portrait" value="0"/><enum name="landscapeRight" value="1"/><enum name="inversePortrait" value="2"/><enum name="landscapeLeft" value="3"/></attr><attr format="boolean" name="animateRotation"/><attr format="integer" name="animationDuration"/></declare-styleable>
+    <declare-styleable name="RecognizerView_LayoutParams"><attr format="boolean" name="rotatable"/></declare-styleable>
+    <!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/values/dimens_blink_ocr.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin_blink_ocr">16dp</dimen>
+    <dimen name="activity_vertical_margin_blink_ocr">16dp</dimen>
+    <dimen name="result_horizontal_margin_blink_ocr">32dp</dimen>
+    <dimen name="result_vertical_margin_blink_ocr">32dp</dimen>
+    <dimen name="text_size_blink_ocr">20sp</dimen>
+</resources>

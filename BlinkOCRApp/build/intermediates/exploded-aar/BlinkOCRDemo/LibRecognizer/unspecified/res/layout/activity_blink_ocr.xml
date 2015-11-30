@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.microblink.ocr.ScanActivity">
+
+    <com.microblink.view.recognition.RecognizerView
+        android:id="@+id/rec_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:animateRotation="true"
+        custom:animationDuration="250"
+        custom:initialOrientation="portrait" />
+
+    <include layout="@layout/overlay_blink_ocr" />
+
+
+
+</FrameLayout>
+<!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkOcr/res/layout/activity_blink_ocr.xml -->

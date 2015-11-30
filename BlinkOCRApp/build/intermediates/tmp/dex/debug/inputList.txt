@@ -1,0 +1,6 @@
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\classes\debug
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ff2d7f5022b5a92fc988e7ecf40140c2621ade2e.jar
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-811029ed49b16ae08da4c1584300525cb6161b9d.jar
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\pre-dexed\debug\classes-a030ffb7a6529153a3e9b4f25f8d6d183e077692.jar
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\pre-dexed\debug\classes-b5ca04317d99bf7766ebd350a6c97a8fa15898f8.jar
+C:\Users\currys\Desktop\BlinkOCRmaster\blinkocr-android-master\BlinkOCRDemo\BlinkOCRApp\build\intermediates\pre-dexed\debug\classes-8069fa67ce74720c48c7bfdaf6fba41c61379581.jar
